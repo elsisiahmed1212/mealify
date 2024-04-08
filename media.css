@@ -1,0 +1,481 @@
+@media screen and (max-width: 480px) {
+
+    .contend-flex .nave-ul ul li {
+        margin-block: 50px;
+    }
+
+    .contend-flex .nave-ul ul .close-uls{
+        display: block;
+    }
+
+    .contend-flex .nave-ul ul {
+        position: absolute;
+        top: 0%;
+        height: 100vh;
+        width: 80%;
+        right: -117%;
+        padding: 30px;
+        background-color: #FFFFFF;
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 1s, right 1s;
+    }
+
+
+    .contend-flex .nave-icons .open-uls{ 
+        display: block;
+    }
+
+
+    .hader-section .contend-flex {
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contend-flex {
+        padding: 30px 0px;
+    }
+
+    .section-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .buttons {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .buttons .hader-button {
+        padding: 10px 40px;
+        border-radius: 50px;
+        margin-right: 5px;
+    }
+
+    .buttons .hader-a-button .hader-Video .inside-hader-Video i {
+        position: relative;
+        top: 50%;
+        left: 4%;
+        transform: translate(-4%, -50%);
+        color: black;
+    }
+
+    .contend-flex .nave-icons i:nth-child(2) {
+        display: flex;
+    }
+
+    .section-image {
+        padding: 40px 0px;
+    }
+
+    .contend-flex {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .chefs-cards {
+        flex-wrap: wrap;
+
+    }
+
+    .chefs-cards .card {
+        width: 100%;
+    }
+
+    .section-info {
+        width: 100%;
+    }
+
+    .section-image {
+        width: 100%;
+    }
+
+    .buttons {
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+
+    .gallary-cards {
+        columns: 1;
+    }
+
+    .contact-section .contact-cards .cards {
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    .contact-section .contact-form .name-email {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+    }
+
+    .contact-section .contact-form .name-email input {
+        display: flex;
+        width: 100%;
+    }
+
+    .contact-section .contact-form .name-email input {
+        display: flex;
+        width: 100%;
+    }
+
+    .fotter-section .contaner-desing {
+        flex-wrap: wrap;
+    }
+
+    .fotter-section .contaner-desing .footer-section-one {
+        width: 100%;
+        order: 1;
+    }
+
+    .fotter-section .contaner-desing .footer-section-two {
+        width: 100%;
+        order: 2;
+    }
+
+    .fotter-section .contaner-desing .footer-section-three {
+        width: 100%;
+        order: 3;
+    }
+
+    .fotter-section .contaner-desing .footer-section-two .footer-form input {
+        width: 100%;
+    }
+
+    .fotter-section .contaner-desing .footer-section-two .footer-form button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+    .contend-flex .nave-icons .open-uls{ 
+        display: block;
+    }
+
+    .contend-flex .nave-ul ul .close-uls{
+        display: block;
+    }
+    
+    .contend-flex .nave-ul ul li {
+        margin-block: 50px;
+    }
+
+    .contend-flex .nave-ul ul {
+        position: absolute;
+        top: 0%;
+        height: 100vh;
+        width: 50%;
+        right: -117%;
+        padding: 30px;
+        background-color: #FFFFFF;
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 1s, right 1s;
+    }
+
+
+    .hader-section .contend-flex {
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    .contend-flex {
+        padding: 30px 0px;
+
+    }
+
+    .section-info {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .buttons {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .buttons .hader-button {
+        padding: 10px 40px;
+        border-radius: 50px;
+        margin-right: 5px;
+    }
+
+    .buttons .hader-a-button .hader-Video .inside-hader-Video i {
+        position: relative;
+        top: 50%;
+        left: 4%;
+        transform: translate(-4%, -50%);
+        color: black;
+    }
+
+    .contend-flex .nave-icons i:nth-child(2) {
+        display: flex;
+    }
+
+    .section-image {
+        padding: 40px 0px;
+        width: 100%;
+    }
+
+    .chefs-cards {
+        flex-wrap: wrap;
+
+    }
+
+    .chefs-cards .card {
+        width: 100%;
+    }
+
+    .contend-flex {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .section-info {
+        width: 100%;
+    }
+
+    .section-image {
+        width: 100%;
+    }
+
+    .gallary-cards {
+        columns: 2;
+    }
+
+    .contact-section .contact-cards .cards {
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    .contact-section .contact-form .name-email {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+    }
+
+    .contact-section .contact-form .name-email input {
+        display: flex;
+        width: 100%;
+    }
+
+    .fotter-section .contaner-desing {
+        flex-wrap: wrap;
+    }
+
+    .fotter-section .contaner-desing .footer-section-one {
+        width: 100%;
+        order: 1;
+    }
+
+    .fotter-section .contaner-desing .footer-section-two {
+        width: 100%;
+        order: 2;
+    }
+
+    .fotter-section .contaner-desing .footer-section-three {
+        width: 100%;
+        order: 3;
+    }
+
+    .fotter-section .contaner-desing .footer-section-two .footer-form input {
+        width: 100%;
+    }
+
+    .fotter-section .contaner-desing .footer-section-two .footer-form button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .contend-flex .nave-icons .open-uls{ 
+        display: block;
+    }
+
+    .contend-flex .nave-ul ul .close-uls{
+        display: block;
+    }
+    .contend-flex .nave-ul ul li {
+        margin-block: 50px;
+    }
+
+    .contend-flex .nave-ul ul {
+        position: absolute;
+        top: 0%;
+        height: 100vh;
+        width: 44%;
+        right: -117%;
+        padding: 30px;
+        background-color: #FFFFFF;
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 1s, right 1s;
+    }
+
+    .hader-section .contend-flex {
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section-info {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .buttons {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .buttons .hader-button {
+        padding: 10px 40px;
+        border-radius: 50px;
+        margin-right: 5px;
+    }
+
+    .buttons .hader-a-button .hader-Video .inside-hader-Video i {
+        position: relative;
+        top: 50%;
+        left: 4%;
+        transform: translate(-4%, -50%);
+        color: black;
+    }
+
+    .contend-flex .nave-icons i:nth-child(2) {
+        display: flex;
+    }
+
+    .section-image {
+        padding: 40px 0px;
+        width: 100%;
+        order: 0;
+    }
+
+    .contend-flex {
+        display: flex;
+    }
+
+    .chefs-cards {
+        flex-wrap: wrap;
+
+    }
+
+    .chefs-cards .card {
+        width: 50%;
+    }
+
+    .gallary-cards {
+        columns: 2;
+    }
+
+    .contact-section .contact-cards .cards {
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    .fotter-section .contaner-desing {
+        flex-wrap: wrap;
+    }
+
+    .fotter-section .contaner-desing .footer-section-one {
+        width: 50%;
+        order: 1;
+    }
+
+    .fotter-section .contaner-desing .footer-section-two {
+        width: 100%;
+        order: 3;
+    }
+
+    .fotter-section .contaner-desing .footer-section-three {
+        width: 50%;
+        order: 2;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+
+    .contend-flex .nave-icons .open-uls{ 
+        display: block;
+    }
+
+    .contend-flex .nave-ul ul .close-uls{
+        display: block;
+    }
+    .contend-flex .nave-ul ul {
+        position: absolute;
+        top: 0%;
+        height: 100vh;
+        width: 30%;
+        right: -117%;
+        padding: 30px;
+        background-color: #FFFFFF;
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 1s, right 1s;
+    }
+
+    .contend-flex .nave-ul ul li {
+        margin-block: 50px;
+    }
+
+
+    .contend-flex .nave-icons i:nth-child(2) {
+        display: flex;
+    }
+
+    .buttons .hader-button {
+        padding: 10px 30px;
+    }
+
+    .fotter-section .contaner-desing {
+        flex-wrap: wrap;
+    }
+
+    .fotter-section .contaner-desing .footer-section-one {
+        width: 50%;
+        order: 1;
+    }
+
+    .fotter-section .contaner-desing .footer-section-two {
+        width: 100%;
+        order: 3;
+    }
+
+    .fotter-section .contaner-desing .footer-section-three {
+        width: 50%;
+        order: 2;
+    }
+
+
+}
